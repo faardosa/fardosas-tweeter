@@ -19,6 +19,7 @@ nav {
   color: white;
   padding: 0 1.5em;
   z-index: 2;
+  position: fixed;
   top: 0;
 }
 
@@ -40,3 +41,18 @@ nav {
 #write {
   font-family: "Source Sans Pro", sans-serif;
 }
+
+@keyframes arrowMovement {
+  from {
+    transform: translate3d(0, -5px, 0);
+  }
+  to {
+    transform: translate3d(0, 5px, 0);
+  }
+}
+.write-tweet i:hover {
+  animation: arrowMovement 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
