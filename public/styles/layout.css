@@ -15,8 +15,8 @@ html {
  */
 
 body {
-  color: #545149;
-  background-color: #f4f1ec;
+  color: #2e6c87;
+  background-color: #e6edf2;
   font-size: 24px;
   font-family: "Source Sans Pro";
 }
@@ -28,7 +28,7 @@ main {
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: #a19b8b;
+  background-color: #ffc8ff;;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,6 +51,16 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*/ desktop style */
+@media only screen and (min-width: 1024px) {
+.main-body {
+display: flex;
+
+
+} 
+
 }
 
 
