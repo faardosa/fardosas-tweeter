@@ -1,18 +1,19 @@
-span {     font-family: 'Bungee', cursive; }
+span {
+  font-family: "Bungee", cursive;
+}
 
-/* .tweeter-title { */
-  /* font-family: "bungee";
-  /* font-size: 120px; */
-  /* color: #FFFFFF;
+/* .tweeter-title {
+ font-family: "bungee";
+   font-size: 120px; 
+  color: #FFFFFF;
   background-color: #4056A1;
-  padding: 120px 1.5em; */
+  padding: 120px 1.5em; 
 
-
-/* }  */ 
+ }   */
 
 nav {
   font-family: "bungee", cursive;
-  background-color: #4056A1;
+  background-color: #4056a1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +28,6 @@ nav {
 
 .write-tweet {
   flex-direction: column;
-  
 }
 
 .write-tweet i {
@@ -57,4 +57,3 @@ nav {
   animation-direction: alternate;
   animation-iteration-count: infinite;
 }
-
