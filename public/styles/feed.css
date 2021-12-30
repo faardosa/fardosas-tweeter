@@ -7,6 +7,9 @@
   border: 2px solid #48453C;
   margin: 2rem 0 0 0;
 }
+.tweet-component:hover {
+  box-shadow: 5px 10px #1a1919ba;
+}
 .image-username-refkey {
   display: flex;
   align-items: center;
