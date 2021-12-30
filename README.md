@@ -18,3 +18,8 @@ This repository is the starter code for the project: Students will fork and clon
 - Node 5.10.x or above
 - Body parser
 - Chance
+## Screenshots 
+
+![Screenshot of tweet homepage] (https://github.com/faardosa/fardosas-tweeter/blob/main/docs/tweet-homepage.png?raw=true)
+
+![Second screenshot] (https://github.com/faardosa/fardosas-tweeter/blob/main/docs/tweet-homepage2.png?raw=true)
